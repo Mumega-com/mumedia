@@ -1,0 +1,124 @@
+{
+ "_help": "Passage start/end and cue t0/t1 are seconds. start/end = seconds in the SOURCE audio. Cue times are RELATIVE TO THE PASSAGE START (source time minus start). Cut points snap to the nearest pause unless exact_start/exact_end is true; a cue with fixed:true keeps your times. chip = topic label above the picture; pane = shadow|sage|hero|innocent|caregiver|trickster (omit to cycle). Captions must be the speaker's own words, proofread by a native reader. This file is a template with placeholder text: put your audio next to it and replace the passages.",
+ "audio": "talk.mp3",
+ "meta": {
+  "clubName": "نام باشگاه",
+  "speaker": "نام سخنران",
+  "titleLines": [
+   "عنوان سخنرانی",
+   "بخش برجسته",
+   "سطر سوم"
+  ],
+  "subtitle": "English subtitle",
+  "topic": "موضوع",
+  "session": "Session 1",
+  "endCard": {
+   "chip1": "برچسب اول",
+   "chip2": "برچسب دوم",
+   "dateLabel": "شروع از",
+   "dateTop": "Start date",
+   "dateLine": "روز و ساعت",
+   "handle": "@yourhandle",
+   "line2": "contact: you@example.com",
+   "showChips": true,
+   "showDate": true
+  }
+ },
+ "passages": {
+  "hook": {
+   "start": 2.0,
+   "end": 14.0,
+   "chip": "موضوع اول",
+   "pane": "shadow",
+   "cues": [
+    {
+     "t0": 0.0,
+     "t1": 3.5,
+     "text": "جملهٔ اول نمونه"
+    },
+    {
+     "t0": 3.6,
+     "t1": 8.0,
+     "text": "جملهٔ دوم نمونه برای زیرنویس"
+    },
+    {
+     "t0": 8.1,
+     "t1": 12.0,
+     "text": "جملهٔ سوم نمونه"
+    }
+   ]
+  },
+  "middle": {
+   "start": 30.0,
+   "end": 52.0,
+   "chip": "موضوع دوم",
+   "pane": "sage",
+   "events": [
+    {
+     "at": 11.0,
+     "chip": "موضوع سوم",
+     "pane": "hero"
+    }
+   ],
+   "cues": [
+    {
+     "t0": 0.0,
+     "t1": 5.0,
+     "text": "متن نمونهٔ بخش دوم"
+    },
+    {
+     "t0": 11.2,
+     "t1": 16.0,
+     "text": "متن نمونهٔ بخش سوم"
+    }
+   ]
+  },
+  "close": {
+   "start": 70.0,
+   "end": 82.0,
+   "chip": "جمع‌بندی",
+   "pane": "innocent",
+   "cues": [
+    {
+     "t0": 0.0,
+     "t1": 6.0,
+     "text": "جمع‌بندی نمونه با یک جملهٔ کامل"
+    }
+   ]
+  }
+ },
+ "cuts": {
+  "reel": {
+   "passages": [
+    "hook",
+    "middle"
+   ],
+   "title_card": false,
+   "end_card": true,
+   "lead": 0.3,
+   "gap": 0.35
+  },
+  "short": {
+   "passages": [
+    "hook",
+    "middle",
+    "close"
+   ],
+   "title_card": true,
+   "end_card": true,
+   "lead": 2.6,
+   "gap": 0.35
+  },
+  "story1": {
+   "passages": [
+    "hook",
+    "middle"
+   ],
+   "title_card": true,
+   "end_card": false,
+   "next_pill": true,
+   "lead": 2.4,
+   "gap": 0.9
+  }
+ }
+}

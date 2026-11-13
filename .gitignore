@@ -1,0 +1,10 @@
+node_modules/
+builds/
+*.mp4
+*.mov
+.DS_Store
+work/
+*.mp3
+!studio/sound/*.mp3
+inbox/*
+outbox/*

@@ -1,0 +1,24 @@
+{
+  "titleLines": [
+    "عنوان سخنرانی",
+    "بخش برجسته",
+    "سطر سوم"
+  ],
+  "subtitle": "English subtitle (or empty)",
+  "topic": "",
+  "session": "",
+  "speaker": "نام سخنران",
+  "endLine": "",
+  "clubName": "نام باشگاه",
+  "endCard": {
+    "chip1": "برچسب اول",
+    "chip2": "برچسب دوم",
+    "dateLabel": "شروع از",
+    "dateTop": "Start date",
+    "dateLine": "روز و ساعت",
+    "handle": "@yourhandle",
+    "line2": "contact: you@example.com",
+    "showChips": true,
+    "showDate": true
+  }
+}
