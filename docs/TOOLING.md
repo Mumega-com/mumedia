@@ -1,3 +1,5 @@
+> The full catalogue of technologies, recipes and verdicts is in `docs/technologies/`.
+
 # Tooling notes
 
 | Piece | Choice | Trap |
